@@ -1,7 +1,7 @@
 # SI507 
 ## HW#7: NYT Flask App
 
-This project focuses on using the New York Times (NYT) Top Headlines API to build a simple Flask app. This app returns the top 5 technology articles and provides a link to each file. 
+This project focuses on using the New York Times (NYT) Top Headlines API to build a simple Flask app. This app returns the top 5 technology articles in the NYT and provides a link to each article. 
 
 ### top_headlines.py 
 This python script launches the NYT Flask app.  
