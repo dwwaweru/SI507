@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Top Tech Articles</title>
+</head>
+<body>
+    <h1>
+        Hello, {{name}}!
+    </h1>
+    <p> Today's technology headlines are... </p>
+    <ol>
+    {% for i in information %}
+        <a href={{i[1]}}><li>{{i[0]}}</li></a>
+    {% endfor %}
+    </ol>
+</body>
+</html>

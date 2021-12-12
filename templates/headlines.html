@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Top Tech Articles</title>
+</head>
+<body>
+    <h1>
+        Hello, {{name}}!
+    </h1>
+    <p> Today's technology headlines are... </p>
+    <ol>
+    {% for h in headlines %}
+        <li>{{h}}</li>
+    {% endfor %}
+    </ol>
+</body>
+</html>
